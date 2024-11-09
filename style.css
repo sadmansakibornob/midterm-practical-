@@ -1,79 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url("images/modern-podium-product-design-against-backdrop-tropical-forest.jpg");
     background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.logo{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 1.5rem;
-    margin: 1rem;
+.logo {
+    font-family: "Lobster", sans-serif;
+    font-size: 2rem; /* Increased font size for better visibility */
     color: #62825D;
-    text-align: center;    
+    text-align: center;
+    margin: 1rem;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     background-color: rgba(158, 223, 156, 0.822);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);        
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-li{
+.nav li {
     list-style: none;
     margin-right: 1rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
     font-weight: 900;
+    font-size: 1.5rem; /* Increased font size */
     display: inline;
-    font-size: 1.5rem;
 }
 
-
-a{
+a {
     color: #415e3c;
     text-decoration: none;
     transition: color 0.3s;
-    
 }
 
+a:hover {
+    color: #1e3d1b; /* Darken the color on hover for better UX */
+}
 
-.content{
-    margin: 2rem;
+.content {
+    margin: 3rem auto;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     color: #415e3c;
-    background-color: hsla(210, 17%, 98%, 0.474);
-    padding: 8rem;
-    height: 55rem;
+    background-color: hsla(210, 20%, 98%, 0.444);
+    padding: 4rem 2rem; /* Adjusted padding */
+    height: auto; /* Make it flexible */
+    max-width: 800px; /* Added max-width for better content display */
     line-height: 1.5;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
-h1{
-    margin-bottom: 0rem;
+h1 {
     font-size: 2.5rem;
     font-weight: 700;
-
+    margin-bottom: 1rem; /* Adjusted margin */
 }
 
-h4{
+h4 {
     margin-bottom: 2rem;
 }
 
-p{
-    text-align: justify;    
+p {
+    text-align: justify;
     line-height: 1.6;
     letter-spacing: 0.2rem;
+    margin-bottom: 1rem; /* Added margin to separate text */
+}
+
+.image {
+    display: flex;
+    justify-content: center; /* Centered the images */
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+}
+
+img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    width: 20rem; /* Set a fixed width for consistency */
+    height: 10rem; /* Set a fixed height for consistency */
+}
+
+#button {
+    margin-top: 2rem; /* Adjusted margin */
+    padding: 1rem 2rem; /* Increased padding for better button size */
+    background-color: #415e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem; /* Slightly larger font size */
+    transition: background-color 0.3s;
+}
+
+#button:hover {
+    background-color: #2a4a2e; /* Darker button color on hover */
+}
+
+footer{
+    background-color: rgba(240, 255, 255, 0.173);
+    width: 28rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 2px;
 }

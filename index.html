@@ -11,9 +11,9 @@
       <div class="nav">
         <div class="logo"><h1>Tree Shop</h1></div>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="product.html">Products</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
     </header>
@@ -33,11 +33,18 @@
         </div>
         
         <!-- Button -->
-        <input type="button" id="button" value="Discover More">
+        <input type="button" id="button" value="Discover More" onclick="productRedrict()">
     </main>
 
     <footer>
         <p>&copy; 2024 Tree Shop. All Rights Reserved.</p>
     </footer>
+
+
+    <script>
+       function productRedrict(){
+         window.location.href = "product.html";  
+       }
+    </script>
   </body>
 </html>

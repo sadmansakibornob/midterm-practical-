@@ -1,79 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="nav">
-          <div class="logo"><h1>Tree Shop</h1></div>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-        </div>
-      </header>
+      <div class="nav">
+        <div class="logo"><h1>Tree Shop</h1></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
 
-      <main class="product-page">
-        <!-- Product 1 -->
-        <div class="product-details">
-            <img src="images/pexels-asphotograpy-105028.jpg" alt="Product Image" class="product-image">
-            <h1 class="product-title">Product Name</h1>
-            <p class="product-description">This is a detailed description of the product. It includes key features and benefits to help the customer understand why this product is a great choice.</p>
-            <p class="product-price">$49.99</p>
-            <button class="add-to-cart">Add to Cart</button>
-        </div>
+    <main class="product-page">
+      <!-- Product 1 -->
+      <div class="product-details">
+        <img
+          src="images/pexels-asphotograpy-105028.jpg"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h1 class="product-title">Product Name</h1>
+        <p class="product-description">
+          This is a detailed description of the product. It includes key
+          features and benefits to help the customer understand why this product
+          is a great choice.
+        </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart" onclick="addCart()">Add to Cart</button>
+      </div>
 
-        <!-- Product 2 -->
-        <div class="product-details">
-            <img src="images/pexels-cottonbro-4505469.jpg" alt="Product Image" class="product-image">
-            <h1 class="product-title">Product Name</h1>
-            <p class="product-description">This is a detailed description of the product. It includes key features and benefits to help the customer understand why this product is a great choice.</p>
-            <p class="product-price">$49.99</p>
-            <button class="add-to-cart">Add to Cart</button>
-        </div>
+      <!-- Product 2 -->
+      <div class="product-details">
+        <img
+          src="images/pexels-cottonbro-4505469.jpg"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h1 class="product-title">Product Name</h1>
+        <p class="product-description">
+          This is a detailed description of the product. It includes key
+          features and benefits to help the customer understand why this product
+          is a great choice.
+        </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart" onclick="addCart()">Add to Cart</button>
+      </div>
 
-        <!-- Product 3 -->
-        <div class="product-details">
-            <img src="images/pexels-nietjuh-1906439.jpg" alt="Product Image" class="product-image">
-            <h1 class="product-title">Product Name</h1>
-            <p class="product-description">This is a detailed description of the product. It includes key features and benefits to help the customer understand why this product is a great choice.</p>
-            <p class="product-price">$49.99</p>
-            <button class="add-to-cart">Add to Cart</button>
-        </div>
+      <!-- Product 3 -->
+      <div class="product-details">
+        <img
+          src="images/pexels-nietjuh-1906439.jpg"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h1 class="product-title">Product Name</h1>
+        <p class="product-description">
+          This is a detailed description of the product. It includes key
+          features and benefits to help the customer understand why this product
+          is a great choice.
+        </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart" onclick="addCart()">Add to Cart</button>
+      </div>
 
-        <!-- Product 4 -->
-        <div class="product-details">
-            <img src="images/pexels-scottwebb-1931143.jpg" alt="Product Image" class="product-image">
-            <h1 class="product-title">Product Name</h1>
-            <p class="product-description">This is a detailed description of the product. It includes key features and benefits to help the customer understand why this product is a great choice.</p>
-            <p class="product-price">$49.99</p>
-            <button class="add-to-cart">Add to Cart</button>
-        </div>
+      <!-- Product 4 -->
+      <div class="product-details">
+        <img
+          src="images/pexels-scottwebb-1931143.jpg"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h1 class="product-title">Product Name</h1>
+        <p class="product-description">
+          This is a detailed description of the product. It includes key
+          features and benefits to help the customer understand why this product
+          is a great choice.
+        </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart" onclick="addCart()">Add to Cart</button>
+      </div>
 
-        <!-- Product 5 -->
-        <div class="product-details">
-            <img src="images/pexels-cottonbro-4272611.jpg" alt="Product Image" class="product-image">
-            <h1 class="product-title">Product Name</h1>
-            <p class="product-description">This is a detailed description of the product. It includes key features and benefits to help the customer understand why this product is a great choice.</p>
-            <p class="product-price">$49.99</p>
-            <button class="add-to-cart">Add to Cart</button>
-        </div>
-        
-        <!-- Product 6 -->
-        <div class="product-details">
-            <img src="images/pexels-pixabay-37076.jpg" alt="Product Image" class="product-image">
-            <h1 class="product-title">Product Name</h1>
-            <p class="product-description">This is a detailed description of the product. It includes key features and benefits to help the customer understand why this product is a great choice.</p>
-            <p class="product-price">$49.99</p>
-            <button class="add-to-cart">Add to Cart</button>
-        </div>
+      <!-- Product 5 -->
+      <div class="product-details">
+        <img
+          src="images/pexels-cottonbro-4272611.jpg"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h1 class="product-title">Product Name</h1>
+        <p class="product-description">
+          This is a detailed description of the product. It includes key
+          features and benefits to help the customer understand why this product
+          is a great choice.
+        </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart" onclick="addCart()">Add to Cart</button>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-details">
+        <img
+          src="images/pexels-pixabay-37076.jpg"
+          alt="Product Image"
+          class="product-image"
+        />
+        <h1 class="product-title">Product Name</h1>
+        <p class="product-description">
+          This is a detailed description of the product. It includes key
+          features and benefits to help the customer understand why this product
+          is a great choice.
+        </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart" onclick="addCart()">Add to Cart</button>
+      </div>
     </main>
 
-      <footer><p>&copy; 2024 Tree Shop. All Rights Reserved.</p></footer>
-</body>
+    <footer><p>&copy; 2024 Tree Shop. All Rights Reserved.</p></footer>
+
+    <script>
+      function addCart(){
+          alert("Product added to cart!");
+       }
+    </script>
+  </body>
 </html>
